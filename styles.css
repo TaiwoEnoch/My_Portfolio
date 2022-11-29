@@ -1,0 +1,91 @@
+body {
+  width: 375px;
+  padding: 0px;
+  margin: 0px;
+}
+
+header {
+  top: 0px;
+  background-color: #3e3c3c;
+}
+
+.logo {
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.navigation,
+.top-bar {
+  width: 360px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+  height: 2rem;
+}
+
+.main {
+  background-color: #1c1a19;
+  background-image: url(/images/Illustration-mobile.png);
+  background-repeat: no-repeat;
+  background-position-y: 9rem;
+  background-position-x: 15rem;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding: 50px 0px;
+  gap: 12px;
+  position: absolute;
+  width: 375px;
+  height: 392px;
+  top: 64px;
+}
+
+.para1 {
+  width: 327px;
+  height: 124px;
+  font-family: 'Crete Round', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 44px;
+  letter-spacing: 0.37px;
+  color: #ff6b00;
+  padding-left: 1rem;
+  margin-bottom: -10%;
+}
+
+.para2 {
+  color: #fff5e1;
+  width: 327px;
+  height: 10px;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 2rem;
+  display: flex;
+  align-items: center;
+  padding-left: 1rem;
+}
+
+.para3 {
+  width: 327px;
+  height: 123px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 24px;
+  padding-left: 1rem;
+}
+
+.icon {
+  display: flex;
+  gap: 1rem;
+  padding-left: 1rem;
+}
