@@ -1,11 +1,8 @@
 body {
   width: 375px;
-  padding: 0;
-  margin: 0;
 }
 
 header {
-  top: 0;
   background-color: #3e3c3c;
 }
 
@@ -31,8 +28,8 @@ header {
   background-color: #1c1a19;
   background-image: url(/images/Illustration-mobile.png);
   background-repeat: no-repeat;
-  background-position-y: 9rem;
-  background-position-x: 15rem;
+  background-position-y: 10rem;
+  background-position-x: 14rem;
   color: #fff;
   display: flex;
   flex-direction: column;
@@ -42,21 +39,21 @@ header {
   position: absolute;
   width: 375px;
   height: 392px;
-  top: 64px;
+  top: 66px;
 }
 
 .para1 {
   width: 327px;
-  height: 124px;
+  height: 130px;
   font-family: 'Crete Round', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 50px;
-  line-height: 44px;
+  line-height: 53px;
   letter-spacing: 0.37px;
   color: #ff6b00;
   padding-left: 1rem;
-  margin-bottom: -10%;
+  margin-bottom: -8%;
 }
 
 .para2 {
@@ -67,7 +64,7 @@ header {
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
-  line-height: 2rem;
+  line-height: 3rem;
   display: flex;
   align-items: center;
   padding-left: 1rem;
@@ -78,14 +75,17 @@ header {
   height: 123px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
-  font-weight: 400;
-  font-size: 1rem;
-  line-height: 24px;
+  font-weight: 200;
+  font-size: 0.8rem;
+  line-height: 1.5rem;
   padding-left: 1rem;
 }
 
 .icon {
+  height: 13px;
+  width: 13px;
   display: flex;
-  gap: 1rem;
-  padding-left: 1rem;
+  gap: 4px;
+  padding-left: 0.6rem;
+  margin-top: -20px;
 }
