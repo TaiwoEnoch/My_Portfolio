@@ -20,7 +20,7 @@ body {
 
 .navigation,
 .top-bar {
-  width: 100%;
+  width: 375px;
   display: flex;
   align-items: center;
   padding: 0 1.25rem;
@@ -32,8 +32,8 @@ body {
 .main {
   background-image: url(/images/Illustration-mobile.png);
   background-repeat: no-repeat;
-  background-position-y: 12rem;
-  background-position-x: 11.3rem;
+  background-position-y: 10rem;
+  background-position-x: 14.3rem;
   color: #fff;
   display: flex;
   flex-direction: column;
