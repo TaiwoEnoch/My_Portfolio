@@ -104,7 +104,12 @@ body {
   font-weight: 400;
   line-height: 52px;
   width: 327px;
-  border-bottom: 1px solid #212121;
+}
+
+hr.rounded {
+  border-top: 1px solid #bbb;
+  border-radius: 3px;
+  width: 20rem;
 }
 
 .img-place {
