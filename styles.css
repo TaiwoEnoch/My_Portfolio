@@ -8,7 +8,7 @@ body {
   width: 375px;
   height: 100vh;
   margin: 0 auto;
-  background: #fee;
+  background: #f4f5f7;
 }
 
 .logo {
@@ -80,8 +80,8 @@ body {
 }
 
 .icon {
-  height: 13px;
-  width: 13px;
+  height: 15px;
+  width: 15px;
   display: flex;
   gap: 4px;
   margin-left: 0.35rem;
@@ -108,7 +108,7 @@ body {
 }
 
 hr{
-  border-top: 1px solid #bbb;
+  border-top: 1px solid #fff;
   border-radius: 3px;
   width: 19rem;
   margin-left: 0.5rem;
@@ -148,30 +148,24 @@ hr{
   color: #091e42;
 }
 
-.sec2ul,
-li {
+.sec2ul {
   display: flex;
   flex-direction: row;
-  align-items: center;
   gap: 12px;
-  width: 297px;
-  height: 40px;
   text-decoration: none;
 }
 
+li {
+  list-style: none;
+}
+
 .sec2 {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
   padding: 10px 12px;
-  width: 92px;
-  height: 40px;
   background: #fff;
   border: 1px solid #8993a4;
   font-family: 'Inter', sans-serif;
   font-size: 15px;
   font-weight: 500;
-  line-height: 20;
 }
 
 .b-t-n {
@@ -191,10 +185,32 @@ li {
   line-height: 24px;
   letter-spacing: 0.03em;
   text-align: center;
+  color: #fff;
 }
 
-.b-t-n:hover {
+/* unvisited button */
+.b-t-n:disabled {
+  background: #f4f1f0;
+  color: #5b5957;
+}
+
+/* visited button */
+.b-t-n:visited {
+  background: #e05304;
   color: #fff;
+}
+
+/* mouse over button */
+.b-t-n:hover {
+  background: #fff5e1;
+  border: 1px solid #f55800;
+  color: #f55800;
+}
+
+/* selected button */
+.b-t-n:active {
+  background: #e05304;
+  color: #f4f1f0;
 }
 
 .section3 {
@@ -241,15 +257,14 @@ li {
 }
 
 .sec3li {
-  height: 40px;
-  gap: 12px;
   background: rgba(255, 255, 255, 0.24);
   color: #fff;
   font-family: 'Inter', sans-serif;
   font-size: 15px;
   font-weight: 500;
-  line-height: 20px;
-  text-align: left;
+  padding: 10px 12px;
+  font-size: 15px;
+  font-weight: 500;
 }
 
 .see {
@@ -267,13 +282,34 @@ li {
   color: #fff;
 }
 
+/* unvisited button */
+.see:disabled {
+  background: #f4f1f0;
+  color: #5b5957;
+}
+
+/* visited button */
+.see:visited {
+  background: #e05304;
+  color: #fff;
+}
+
+/* mouse over button */
 .see:hover {
-   color: #fff5e1;
+  background: #fff5e1;
+  border: 1px solid #f55800;
+  color: #f55800;
+}
+
+/* selected button */
+.see:active {
+  background: #e05304;
+  color: #f4f1f0;
 }
 
 .about-me {
   margin-top: 10rem;
-  height: 1901px;
+  height: 1660px;
   width: 375px;
   top: 4137px;
   background: #1c1a19;
@@ -329,8 +365,29 @@ li {
   border: 0;
 }
 
+/* unvisited button */
+.btn5:disabled {
+  background: #f4f1f0;
+  color: #5b5957;
+}
+
+/* visited button */
+.btn5:visited {
+  background: #e05304;
+  color: #fff;
+}
+
+/* mouse over button */
 .btn5:hover {
-  color: bisque;
+  background: #fff5e1;
+  border: 1px solid #f55800;
+  color: #f55800;
+}
+
+/* selected button */
+.btn5:active {
+  background: #e05304;
+  color: #f4f1f0;
 }
 
 .hr2 {
@@ -339,31 +396,177 @@ li {
   margin-left: 1.5rem;
 }
 
-.lang {
-  position: absolute;
+.lag,
+.frame_tools,
+.sky {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 120px 24px;
+  justify-content: center;
+  padding: 40px 24px;
   gap: 24px;
-  width: 329px;
-  height: 1241.46px;
-  left: calc(50% - 329px/2);
-  top: 4797px;
-}
-
-.lag {
-  height: 24px;
-  width: 164px;
-  left: 49.4560546875px;
-  top: 8.7279052734375px;
-  font-size: 32px;
+  width: 100%;
+  color: #fff;
+  font-family: 'inter', sans-serif;
+  font-style: normal;
   font-weight: 700;
-  line-height: 44px;
+  font-size: 32px;
+}
+
+.language,
+.Family,
+.ski {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 43px;
+}
+
+.lang {
+  margin-top: 5rem;
+  background-image: url(/images/Rectangle\ 55.png);
+  background-repeat: no-repeat;
+  background-position-x: 78px;
+  background-position-y: 45px;
+}
+
+.frame {
+  background-image: url(/images/Rectangle\ 56.png);
+  background-repeat: no-repeat;
+  background-position-x: 60px;
+  background-position-y: 50px;
+}
+
+.skill {
+  background-image: url(/images/Rectangle\ 57.png);
+  background-repeat: no-repeat;
+  background-position-x: 112px;
+  background-position-y: 50px;
+}
+
+.bottom-section {
+  background-color: #fff;
+  margin-bottom: 508px;
+  height: 944px;
+}
+
+.bottom-para {
+  padding-top: 120px;
+  width: 100%;
+  font-family: 'Inter' sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  color: #172b4d;
   text-align: center;
+  line-height: 44px;
+}
+
+form {
+  width: 100%;
+  margin-top: 58px;
+}
+
+input {
+  width: 90%;
+  height: 48px;
+  gap: 24px;
+  border: none;
+  border-bottom: 1px #bbb solid;
+  padding-left: 1rem;
+  margin-left: 1rem;
+  margin-top: 2rem;
+  font-family: 'Inter', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+}
+
+textarea {
+  padding-left: 1rem;
+  margin-left: 1rem;
+  height: 2rem;
+  height: 90px;
+  width: 90%;
+  left: 12px;
+  top: 12px;
+  background: #fbf8f7;
+  font-family: 'Inter', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  margin-top: 0.5rem;
+}
+
+.click {
+  margin-top: 1.5rem;
+  width: 131px;
+  height: 48px;
+  margin-left: 114px;
+  background-color: #ff6b00;
+  font-family: 'Inter', sans-serif;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  border: none;
+  color: #fff;
+  margin-bottom: 120px;
+}
+
+/* unvisited button */
+.click:disabled {
+  background: #f4f1f0;
+  color: #5b5957;
+}
+
+/* visited button */
+.click:visited {
+  background: #e05304;
   color: #fff;
 }
 
-.language {
-  color: #fff;
+/* mouse over button */
+.click:hover {
+  background: #fff5e1;
+  border: 1px solid #f55800;
+  color: #f55800;
+}
+
+/* selected button */
+.click:active {
+  background: #e05304;
+  color: #f4f1f0;
+}
+
+
+.horizontal {
+  width: 100%;
+  border: 1px #dfe1e6 solid;
+  margin-left: 0rem;
+}
+
+
+.footer-icons {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  align-self: center;
+  gap: 1rem;
+  margin-bottom: 0.5rem;
+  margin-top: 2rem;
+  margin-left: 4.5rem;
+} 
+
+.img-bottom {
+ margin-left: 7.5rem;
 }
