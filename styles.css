@@ -107,7 +107,7 @@ body {
   width: 327px;
 }
 
-hr{
+hr {
   border-top: 1px solid #fff;
   border-radius: 3px;
   width: 19rem;
@@ -261,9 +261,7 @@ li {
   color: #fff;
   font-family: 'Inter', sans-serif;
   font-size: 15px;
-  font-weight: 500;
   padding: 10px 12px;
-  font-size: 15px;
   font-weight: 500;
 }
 
@@ -354,7 +352,7 @@ li {
   gap: 10px;
   width: 161px;
   height: 48px;
-  font-family: 'Inter' sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: 17px;
   font-weight: 700;
   line-height: 24px;
@@ -392,7 +390,7 @@ li {
 
 .hr2 {
   margin-top: 13rem;
-  Width: 327px;
+  width: 327px;
   margin-left: 1.5rem;
 }
 
@@ -459,7 +457,7 @@ li {
 .bottom-para {
   padding-top: 120px;
   width: 100%;
-  font-family: 'Inter' sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -551,9 +549,8 @@ textarea {
 .horizontal {
   width: 100%;
   border: 1px #dfe1e6 solid;
-  margin-left: 0rem;
+  margin-left: 0;
 }
-
 
 .footer-icons {
   width: 100%;
@@ -568,5 +565,5 @@ textarea {
 } 
 
 .img-bottom {
- margin-left: 7.5rem;
+  margin-left: 7.5rem;
 }
